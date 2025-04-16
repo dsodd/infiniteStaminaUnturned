@@ -9,7 +9,7 @@ using System.Collections.Generic;
 
 namespace InfiniteForwardSprint
 {
-    public class Main : RocketPlugin<IRocketPluginConfiguration>
+    public class Main : RocketPlugin
     {
         private Dictionary<CSteamID, Vector3> lastPositions = new Dictionary<CSteamID, Vector3>();
 
